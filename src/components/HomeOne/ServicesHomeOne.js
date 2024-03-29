@@ -12,9 +12,9 @@ function ServicesHomeOne({ className }) {
                     <div className="col-lg-6">
                         <div className="appie-section-title text-center">
                             <h3 className="appie-title">
-                            Experience the<br />World’s Best Coaching
+                            Leveraging Our Unique Approach to Reversing Diabetes
                             </h3>
-                            <p>Supercharged by Next-Gen AI
+                            <p>Understanding the Real Impact of Our Program
 </p>
                         </div>
                     </div>
@@ -30,8 +30,8 @@ function ServicesHomeOne({ className }) {
                                 <img src={IconOne} alt="" />
                                 <span>1</span>
                             </div>
-                            <h4 className="appie-title">Lorem</h4>
-                            <p>Mucker plastered bugger all mate morish are.</p>
+                            {/* <h4 className="appie-title">Lorem</h4> */}
+                            <p className='mt-4'>Monitor real-time fluctuations in your blood sugar levels</p>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6">
@@ -44,8 +44,8 @@ function ServicesHomeOne({ className }) {
                                 <img src={IconTwo} alt="" />
                                 <span>2</span>
                             </div>
-                            <h4 className="appie-title">Lorem</h4>
-                            <p>Mucker plastered bugger all mate morish are.</p>
+                            {/* <h4 className="appie-title">Lorem</h4> */}
+                            <p className='mt-4'>Minimize and eventually eliminate your reliance on medication</p>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6">
@@ -58,8 +58,8 @@ function ServicesHomeOne({ className }) {
                                 <img src={IconThree} alt="" />
                                 <span>3</span>
                             </div>
-                            <h4 className="appie-title">Lorem</h4>
-                            <p>Mucker plastered bugger all mate morish are.</p>
+                            {/* <h4 className="appie-title">Lorem</h4> */}
+                            <p className='mt-4'>Embrace straightforward dietary practices without resorting to trendy diets</p>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6">
@@ -72,8 +72,8 @@ function ServicesHomeOne({ className }) {
                                 <img src={IconFour} alt="" />
                                 <span>4</span>
                             </div>
-                            <h4 className="appie-title">Lorem</h4>
-                            <p>Mucker plastered bugger all mate morish are.</p>
+                            {/* <h4 className="appie-title">Lorem</h4> */}
+                            <p className='mt-4'>Access India's most empathetic diabetes specialists</p>
                         </div>
                     </div>
                 </div>

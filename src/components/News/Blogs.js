@@ -18,7 +18,7 @@ function Blogs() {
                         <div className="b-post-details">
                             <div className="bp-meta">
                                 <a href="#">
-                                    <i className="fal fa-clock"></i>April 22, 2020
+                                    <i className="fal fa-clock"></i>March 21, 2024
                                 </a>
                                 <a href="#">
                                     <i className="fal fa-comments"></i>6 Comments
@@ -26,10 +26,10 @@ function Blogs() {
                             </div>
                             <h3>
                                 <a href="/news/single-news">
-                                    Build A Full Web Chat App From Scratch.
+                                Contrary to popular belief, Lorem Ipsum
                                 </a>
                             </h3>
-                            <a className="read-more" href="single-post.html">
+                            <a className="read-more" href="#">
                                 Read More<i className="fal fa-arrow-right"></i>
                             </a>
                         </div>
@@ -41,7 +41,7 @@ function Blogs() {
                         <div className="b-post-details">
                             <div className="bp-meta">
                                 <a href="#">
-                                    <i className="fal fa-clock"></i>April 22, 2020
+                                    <i className="fal fa-clock"></i>March 21, 2024
                                 </a>
                                 <a href="#">
                                     <i className="fal fa-comments"></i>6 Comments
@@ -49,7 +49,7 @@ function Blogs() {
                             </div>
                             <h3>
                                 <a href="/news/single-news">
-                                    Insights on How to Improve Your Teaching.
+                                Contrary to popular belief, Lorem Ipsum
                                 </a>
                             </h3>
                             <a className="read-more" href="/news/single-news">
@@ -64,7 +64,7 @@ function Blogs() {
                         <div className="b-post-details">
                             <div className="bp-meta">
                                 <a href="#">
-                                    <i className="fal fa-clock"></i>April 22, 2020
+                                    <i className="fal fa-clock"></i>March 21, 2024
                                 </a>
                                 <a href="#">
                                     <i className="fal fa-comments"></i>6 Comments
@@ -72,7 +72,7 @@ function Blogs() {
                             </div>
                             <h3>
                                 <a href="/news/single-news">
-                                    Brush Strokes Energize Trees In Paintings
+                                Contrary to popular belief, Lorem Ipsum
                                 </a>
                             </h3>
                             <a className="read-more" href="/news/single-news">
@@ -87,14 +87,14 @@ function Blogs() {
                         <div className="b-post-details">
                             <div className="bp-meta">
                                 <a href="#">
-                                    <i className="fal fa-clock"></i>April 22, 2020
+                                    <i className="fal fa-clock"></i>March 21, 2024
                                 </a>
                                 <a href="#">
                                     <i className="fal fa-comments"></i>6 Comments
                                 </a>
                             </div>
                             <h3>
-                                <a href="/news/single-news">Learning Python for Data Analysis.</a>
+                                <a href="/news/single-news">Contrary to popular belief, Lorem Ipsum</a>
                             </h3>
                             <a className="read-more" href="/news/single-news">
                                 Read More<i className="fal fa-arrow-right"></i>
@@ -108,18 +108,18 @@ function Blogs() {
                         <div className="b-post-details">
                             <div className="bp-meta">
                                 <a href="#">
-                                    <i className="fal fa-clock"></i>April 22, 2020
+                                    <i className="fal fa-clock"></i>March 21, 2024
                                 </a>
                                 <a href="#">
                                     <i className="fal fa-comments"></i>6 Comments
                                 </a>
                             </div>
                             <h3>
-                                <a href="single-post.html">
-                                    Logotype Masterclass with Jessica Hische
+                                <a href="#">
+                                Contrary to popular belief, Lorem Ipsum
                                 </a>
                             </h3>
-                            <a className="read-more" href="single-post.html">
+                            <a className="read-more" href="#">
                                 Read More<i className="fal fa-arrow-right"></i>
                             </a>
                         </div>
@@ -131,7 +131,7 @@ function Blogs() {
                         <div className="b-post-details">
                             <div className="bp-meta">
                                 <a href="#">
-                                    <i className="fal fa-clock"></i>April 22, 2020
+                                    <i className="fal fa-clock"></i>March 21, 2024
                                 </a>
                                 <a href="#">
                                     <i className="fal fa-comments"></i>6 Comments
@@ -139,10 +139,10 @@ function Blogs() {
                             </div>
                             <h3>
                                 <a href="/news/single-news">
-                                    Build A Full Web Chat App From Scratch.
+                                Contrary to popular belief, Lorem Ipsum
                                 </a>
                             </h3>
-                            <a className="read-more" href="single-post.html">
+                            <a className="read-more" href="#">
                                 Read More<i className="fal fa-arrow-right"></i>
                             </a>
                         </div>
@@ -154,16 +154,16 @@ function Blogs() {
                         <div className="b-post-details">
                             <div className="bp-meta">
                                 <a href="#">
-                                    <i className="fal fa-clock"></i>April 22, 2020
+                                    <i className="fal fa-clock"></i>March 21, 2024
                                 </a>
                                 <a href="#">
                                     <i className="fal fa-comments"></i>6 Comments
                                 </a>
                             </div>
                             <h3>
-                                <a href="single-post.html">Learning Python for Data Analysis.</a>
+                                <a href="#">Contrary to popular belief, Lorem Ipsum</a>
                             </h3>
-                            <a className="read-more" href="single-post.html">
+                            <a className="read-more" href="#">
                                 Read More<i className="fal fa-arrow-right"></i>
                             </a>
                         </div>
@@ -175,16 +175,16 @@ function Blogs() {
                         <div className="b-post-details">
                             <div className="bp-meta">
                                 <a href="#">
-                                    <i className="fal fa-clock"></i>April 22, 2020
+                                    <i className="fal fa-clock"></i>March 21, 2024
                                 </a>
                                 <a href="#">
                                     <i className="fal fa-comments"></i>6 Comments
                                 </a>
                             </div>
                             <h3>
-                                <a href="single-post.html">Learning Python for Data Analysis.</a>
+                                <a href="#">Contrary to popular belief, Lorem Ipsum</a>
                             </h3>
-                            <a className="read-more" href="single-post.html">
+                            <a className="read-more" href="#">
                                 Read More<i className="fal fa-arrow-right"></i>
                             </a>
                         </div>

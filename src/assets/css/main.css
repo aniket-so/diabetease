@@ -447,6 +447,7 @@ p {
 }
 
 .toggle-btn {
+  display: none !important;
   position: absolute;
   right: 0;
   top: 50%;
@@ -832,13 +833,13 @@ p {
   z-index: 1010;
   background: #fff;
   box-shadow: 0 15px 30px 0 #0000000f;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   animation: sticky 1.2s;
 }
 
 .appie-header-area {
-  padding-top: 30px;
+  padding-top: 10px;
   position: absolute;
   left: 0;
   top: 0;
@@ -2174,12 +2175,14 @@ p {
 
 .appie-page-title-area {
   height: 450px;
-  background-image: url(../images/page-bg.jpg);
+  /* background-image: url(../images/page-bg.jpg); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
+  background-color: #fff;
+  color: #111;
 }
 .appie-page-title-area.appie-page-service-title-area {
   height: 650px;
@@ -2244,13 +2247,13 @@ p {
   }
 }
 .appie-page-title-item span {
-  color: #fff;
+  color: #111;
   font-weight: 500;
   opacity: 0.7;
   padding-bottom: 14px;
 }
 .appie-page-title-item .title {
-  color: #fff;
+  color: #111;
   font-size: 44px;
   font-weight: 700;
 }
@@ -2273,7 +2276,7 @@ p {
   padding: 0;
 }
 .appie-page-title-item nav ol li a {
-  color: #fff;
+  color: #111;
   opacity: 0.8;
 }
 .appie-page-title-item nav ol li.active {

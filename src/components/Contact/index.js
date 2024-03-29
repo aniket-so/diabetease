@@ -6,19 +6,21 @@ import Drawer from '../Mobile/Drawer';
 import HeaderNews from '../News/HeaderNews';
 import HeroNews from '../News/HeroNews';
 import Forms from './Forms';
+import HomeOneHeader from '../HomeOne/HomeOneHeader';
 
 function Contact() {
     const [drawer, drawerAction] = useToggle(false);
 
     return (
         <>
-            <Drawer drawer={drawer} action={drawerAction.toggle} />
-            <HeaderNews drawer={drawer} action={drawerAction.toggle} />
+            {/* <Drawer drawer={drawer} action={drawerAction.toggle} /> */}
+            {/* <HeaderNews drawer={drawer} action={drawerAction.toggle} /> */}
+            <HomeOneHeader/>
             <HeroNews
-                title="Blogs"
+                title="Contact Us"
                 breadcrumb={[
-                    { link: '/', title: 'home' },
-                    { link: '/news', title: 'Blogs' },
+                    { link: '/', title: 'Home' },
+                    { link: '/contact', title: 'Contact' },
                 ]}
             />
             <Forms />

@@ -14,26 +14,26 @@ function Forms() {
                                     <h5>Headquaters</h5>
                                     <p>
                                         <i className="fal fa-home"></i>
-                                        744 New York Ave, Brooklyn, Kings,
-                                        <br /> New York 10224
+                                        Lorem Ipsum
+                                        <br /> Lorem Ipsum 500081
                                     </p>
                                 </div>
                                 <div className="single-info">
                                     <h5>Phone</h5>
                                     <p>
                                         <i className="fal fa-phone"></i>
-                                        (+642) 245 356 432
+                                        (+91) 245 356 432
                                         <br />
-                                        (+420) 336 476 328
+                                        (+91) 336 476 328
                                     </p>
                                 </div>
                                 <div className="single-info">
                                     <h5>Support</h5>
                                     <p>
                                         <i className="fal fa-envelope"></i>
-                                        bisy@support.com
+                                        diabetease@support.com
                                         <br />
-                                        help@education.com
+                                        help@diabetease.com
                                     </p>
                                 </div>
                                 <div className="ab-social">
@@ -105,12 +105,12 @@ function Forms() {
                 </div>
             </section>
 
-            <div className="bisylms-map">
+            {/* <div className="bisylms-map">
                 <iframe
                     title="map"
                     src="https://maps.google.com/maps?width=720&amp;height=600&amp;hl=en&amp;coord=39.966528,-75.158284&amp;q=1%20Grafton%20Street%2C%20Dublin%2C%20Ireland+(My%20Business%20Name)&amp;ie=UTF8&amp;t=p&amp;z=16&amp;iwloc=B&amp;output=embed"
                 ></iframe>
-            </div>
+            </div> */}
         </>
     );
 }

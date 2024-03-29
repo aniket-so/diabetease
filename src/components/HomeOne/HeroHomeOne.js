@@ -55,13 +55,13 @@ function HeroHomeOne({ className }) {
                         </div>
                     </div>
                 </div>
-                <div className="hero-shape-1">
+                <div className="hero-shape-1 d-none">
                     <img src={shapeTwo} alt="" />
                 </div>
-                <div className="hero-shape-2">
+                <div className="hero-shape-2 d-none">
                     <img src={shapeThree} alt="" />
                 </div>
-                <div className="hero-shape-3">
+                <div className="hero-shape-3 d-none">
                     <img src={shapeFour} alt="" />
                 </div>
             </section>

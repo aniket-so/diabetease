@@ -323,7 +323,7 @@ function Drawer({ drawer, action, lang }) {
                                                             <Link to="/about-us">About</Link>
                                                         </li>
                                                         <li>
-                                                            <Link to="/about-us-another">
+                                                            <Link to="/about">
                                                                 About 2
                                                             </Link>
                                                         </li>

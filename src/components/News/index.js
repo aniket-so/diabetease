@@ -7,17 +7,19 @@ import Blogs from './Blogs';
 import BlogSideBar from './BlogSideBar';
 import HeaderNews from './HeaderNews';
 import HeroNews from './HeroNews';
+import HomeOneHeader from '../HomeOne/HomeOneHeader';
 
 function News() {
     const [drawer, drawerAction] = useToggle(false);
     return (
         <>
-            <Drawer drawer={drawer} action={drawerAction.toggle} />
-            <HeaderNews action={drawerAction.toggle} />
+            {/* <Drawer drawer={drawer} action={drawerAction.toggle} /> */}
+            {/* <HeaderNews action={drawerAction.toggle} /> */}
+            <HomeOneHeader/>
             <HeroNews
                 title="Blogs"
                 breadcrumb={[
-                    { link: '/', title: 'home' },
+                    { link: '/', title: 'Home' },
                     { link: '/news', title: 'Blogs' },
                 ]}
             />

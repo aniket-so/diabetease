@@ -59,7 +59,7 @@ function Routes() {
                             <Route exact path="/about-us" component={AboutUs} />
                             <Route exact path="/contact" component={Contact} />
                             <Route exact path="/error" component={Error} />
-                            <Route exact path="/about-us-another" component={AboutUsTwo} />
+                            <Route exact path="/about" component={AboutUsTwo} />
                             <Route exact path="/shops" component={Shops} />
                             <Route exact path="/shops/shop-details" component={ShopDetails} />
                             <Route component={Error} />
