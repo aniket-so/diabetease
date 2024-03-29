@@ -15,10 +15,10 @@ function HeroHomeOne({ className }) {
                             <div className="appie-hero-content">
                                 <span>Welcome To Diabetease</span>
                                 <h1 className="appie-title">
-                                    Lorem Ipsum is simply dummy text 
+                                    Lower Your Blood Sugar Levels Naturally
                                 </h1>
                                 <p>
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled
+                                    Personalized plans. Expert coaching. Delicious recipes
                                 </p>
                                 <ul>
                                     <li>
