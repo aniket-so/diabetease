@@ -7,7 +7,7 @@ import { FaUserDoctor } from "react-icons/fa6";
 
 function HowItWorks({ className }) {
     return (
-        <section className={`appie-service-area pt-90 pb-100 ${className}`} id="service">
+        <section className={`appie-service-area pt-90 pb-50 ${className}`} id="service">
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-lg-6">

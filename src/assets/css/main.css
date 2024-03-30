@@ -3709,7 +3709,7 @@ background: linear-gradient(94deg, rgba(67,132,153,1) 9%, rgba(69,137,156,1) 30%
     8.APPIE PRICING css 
 ===========================*/
 .appie-pricing-area {
-  background: #eef1f6;
+  background: #ECF9F7;
 }
 
 .appie-pricing-area {
@@ -3754,7 +3754,7 @@ background: linear-gradient(94deg, rgba(67,132,153,1) 9%, rgba(69,137,156,1) 30%
   bottom: 4px;
   -webkit-transform: translateX(0px);
   transform: translateX(0px);
-  background-color: #007C9C;
+  background-color: #40C9B6;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -3874,9 +3874,9 @@ background: linear-gradient(94deg, rgba(67,132,153,1) 9%, rgba(69,137,156,1) 30%
   border: 2px solid #e7eaef;
 }
 .pricing-one__single .pricig-body .pricing-btn a:hover {
-  background: #f8452d;
+  background: #40C9B6;
   color: #fff;
-  border-color: #f8452d;
+  border-color: #40C9B6;
 }
 .pricing-one__single .pricing-rebon {
   position: absolute;
@@ -3887,21 +3887,21 @@ background: linear-gradient(94deg, rgba(67,132,153,1) 9%, rgba(69,137,156,1) 30%
   font-size: 14px;
   font-weight: 500;
   color: #fff;
-  background: #f8452d;
+  background: #1E5DBC;
   line-height: 28px;
   padding: 0 18px;
   border-radius: 30px;
-  box-shadow: 0px 10px 20px 0px rgba(183, 30, 10, 0.3);
+  box-shadow: 0px 10px 20px 0px rgba(65, 144, 229, 0.3);
 }
 .pricing-one__single.center {
   box-shadow: 0px 40px 40px 0px rgba(14, 17, 51, 0.1);
 }
 .pricing-one__single.center .pricig-body ul li i {
-  color: #f8452d;
+  color: #40C9B6;
 }
 .pricing-one__single.center .pricig-body .pricing-btn a {
-  background: #f8452d;
-  border-color: #f8452d;
+  background: #40C9B6;
+  border-color: #40C9B6;
   color: #fff;
 }
 .pricing-one__single:hover {
@@ -3985,7 +3985,7 @@ background: linear-gradient(94deg, rgba(67,132,153,1) 9%, rgba(69,137,156,1) 30%
     9.APPIE FAQ css 
 ===========================*/
 .appie-faq-area {
-  background: #eef1f6;
+  background: #ECF9F7;
   position: relative;
   /* background-image: url(../images/shape/faq-shape.png); */
   background-position: 94% 100%;
@@ -4096,7 +4096,7 @@ background: linear-gradient(94deg, rgba(67,132,153,1) 9%, rgba(69,137,156,1) 30%
   font-family: "Font Awesome 5 Pro";
   font-weight: 400;
   font-size: 14px;
-  color: #007C9C;
+  color: #1E5DBC;
   display: -webkit-box;
   display: flex;
   -webkit-box-pack: center;
@@ -4146,7 +4146,7 @@ background: linear-gradient(94deg, rgba(67,132,153,1) 9%, rgba(69,137,156,1) 30%
   opacity: 0;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
-  background: #007C9C;
+  background: #1E5DBC;
   height: 40px;
   width: 40px;
   text-align: center;
@@ -5396,7 +5396,7 @@ blockquote cite {
 ===========================*/
 .appie-project-area .appie-project-box {
   /* background-image: url(../images/project-bg.jpg); */
-  background: #007C9C;
+  background: #1E5DBC;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -5494,7 +5494,7 @@ blockquote cite {
   padding: 0 30px;
   border-radius: 6px;
   padding: 0 25px;
-  background: #F8452D;
+  background: #40C9B6;
   border: 0;
   color: #fff;
   line-height: 50px;

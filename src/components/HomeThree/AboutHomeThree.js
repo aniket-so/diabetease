@@ -49,13 +49,13 @@ function AboutHomeThree() {
                                         <p>enerate Lorem Ipsum which looks reasonable. </p>
                                     </div>
                                 </div>
-                                <div className="col-lg-12">
+                                {/* <div className="col-lg-12">
                                     <div className="traffic-btn mt-50">
                                         <a className="main-btn" href="#">
                                             Learn More <i className="fal fa-arrow-right" />
                                         </a>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>
@@ -87,13 +87,13 @@ function AboutHomeThree() {
                                         <p>enerate Lorem Ipsum which looks reasonable. </p>
                                     </div>
                                 </div>
-                                <div className="col-lg-12">
+                                {/* <div className="col-lg-12">
                                     <div className="traffic-btn mt-50">
                                         <a className="main-btn" href="#">
                                             Learn More <i className="fal fa-arrow-right" />
                                         </a>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                         <div className="col-lg-6">
