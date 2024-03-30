@@ -1,6 +1,9 @@
 import React, { useEffect } from 'react';
 import logo7 from '../../assets/images/logo-7.png';
-import logo from '../../assets/images/1-removebg-preview.png';
+// import logo from '../../assets/images/1-removebg-preview.png';
+import logo from '../../assets/images/rsz_logo-sowaka.png';
+// import logo from '../../assets/images/logo-sowaka.png';
+// import logo from '../../assets/images/logo-sowaka (1).png';
 import StickyMenu from '../../lib/StickyMenu';
 import Navigation from '../Navigation';
 

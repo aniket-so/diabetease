@@ -1,6 +1,6 @@
 import React from 'react';
 import thumb from '../../assets/images/traffic-thumb.png';
-import about from '../../assets/images/about-us.png';
+import about from '../../assets/images/about-vector.svg';
 
 function TrafficHomeOne({ className }) {
     return (
