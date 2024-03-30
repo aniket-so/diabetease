@@ -4,6 +4,7 @@ import heroThumbTwo from '../../assets/images/hero-thumb-2.png';
 import shapeTwo from '../../assets/images/shape/shape-2.png';
 import shapeThree from '../../assets/images/shape/shape-3.png';
 import shapeFour from '../../assets/images/shape/shape-4.png';
+import heroMain from '../../assets/images/dia-1.png';
 
 function HeroHomeOne({ className }) {
     return (
@@ -23,7 +24,7 @@ function HeroHomeOne({ className }) {
                                 <ul>
                                     <li>
                                         <a href="#">
-                                             Take a Reversal Test
+                                             Book An Appoinment
                                         </a>
                                     </li>
                                     {/* <li>
@@ -42,7 +43,7 @@ function HeroHomeOne({ className }) {
                                     data-wow-duration="2000ms"
                                     data-wow-delay="200ms"
                                 >
-                                    <img src="https://www.healthifyme.com/in/images/Banner_Feb1-p-800.png" alt="" />
+                                    <img src={heroMain} alt="" />
                                 </div>
                                 <div
                                     className="thumb-2 wow animated fadeInRight"

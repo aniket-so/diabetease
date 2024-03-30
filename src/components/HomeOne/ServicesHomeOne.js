@@ -12,10 +12,9 @@ function ServicesHomeOne({ className }) {
                     <div className="col-lg-6">
                         <div className="appie-section-title text-center">
                             <h3 className="appie-title">
-                            Leveraging Our Unique Approach to Reversing Diabetes
+                            Find Out More About Our Service
                             </h3>
-                            <p>Understanding the Real Impact of Our Program
-</p>
+                            {/* <p>Understanding the Real Impact of Our Program</p> */}
                         </div>
                     </div>
                 </div>
@@ -28,52 +27,48 @@ function ServicesHomeOne({ className }) {
                         >
                             <div className="icon">
                                 <img src={IconOne} alt="" />
-                                <span>1</span>
                             </div>
-                            {/* <h4 className="appie-title">Lorem</h4> */}
-                            <p className='mt-4'>Monitor real-time fluctuations in your blood sugar levels</p>
+                            <h4 className="appie-title">Lorem</h4>
+                            <p>Monitor real-time fluctuations in your blood sugar levels</p>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6">
                         <div
-                            className="appie-single-service text-center mt-30 item-2 wow animated fadeInUp"
+                            className="appie-single-service text-center mt-30 wow animated fadeInUp"
                             data-wow-duration="2000ms"
-                            data-wow-delay="400ms"
+                            data-wow-delay="200ms"
                         >
                             <div className="icon">
-                                <img src={IconTwo} alt="" />
-                                <span>2</span>
+                                <img src={IconOne} alt="" />
                             </div>
-                            {/* <h4 className="appie-title">Lorem</h4> */}
-                            <p className='mt-4'>Minimize and eventually eliminate your reliance on medication</p>
+                            <h4 className="appie-title">Lorem</h4>
+                            <p>Monitor real-time fluctuations in your blood sugar levels</p>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6">
                         <div
-                            className="appie-single-service text-center mt-30 item-3 wow animated fadeInUp"
+                            className="appie-single-service text-center mt-30 wow animated fadeInUp"
                             data-wow-duration="2000ms"
-                            data-wow-delay="600ms"
+                            data-wow-delay="200ms"
                         >
                             <div className="icon">
-                                <img src={IconThree} alt="" />
-                                <span>3</span>
+                                <img src={IconOne} alt="" />
                             </div>
-                            {/* <h4 className="appie-title">Lorem</h4> */}
-                            <p className='mt-4'>Embrace straightforward dietary practices without resorting to trendy diets</p>
+                            <h4 className="appie-title">Lorem</h4>
+                            <p>Monitor real-time fluctuations in your blood sugar levels</p>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6">
                         <div
-                            className="appie-single-service text-center mt-30 item-4 wow animated fadeInUp"
+                            className="appie-single-service text-center mt-30 wow animated fadeInUp"
                             data-wow-duration="2000ms"
-                            data-wow-delay="800ms"
+                            data-wow-delay="200ms"
                         >
                             <div className="icon">
-                                <img src={IconFour} alt="" />
-                                <span>4</span>
+                                <img src={IconOne} alt="" />
                             </div>
-                            {/* <h4 className="appie-title">Lorem</h4> */}
-                            <p className='mt-4'>Access India's most empathetic diabetes specialists</p>
+                            <h4 className="appie-title">Lorem</h4>
+                            <p>Monitor real-time fluctuations in your blood sugar levels</p>
                         </div>
                     </div>
                 </div>

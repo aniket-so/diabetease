@@ -15,6 +15,7 @@ import TeamHomeOne from './TeamHomeOne';
 import TestimonialHomeOne from './TestimonialHomeOne';
 import TrafficHomeOne from './TrafficHomeOne';
 import AboutHomeThree from '../HomeThree/AboutHomeThree';
+import HowItWorks from './HowItWorks';
 
 function HomeOne() {
     const [drawer, drawerAction] = useToggle(false);
@@ -24,11 +25,12 @@ function HomeOne() {
             {/* <Drawer drawer={drawer} action={drawerAction.toggle} /> */}
             <HomeOneHeader action={drawerAction.toggle} />
             <HeroHomeOne />
-            <ServicesHomeOne />
             <TrafficHomeOne />
+            <ServicesHomeOne />
             <TestimonialHomeOne />
+            <HowItWorks/>
             <AboutHomeThree/>
-            <TeamHomeOne />
+            {/* <TeamHomeOne /> */}
             <PricingHomeOne />
             <FaqHomeOne />
             <ProjectHomeOne />

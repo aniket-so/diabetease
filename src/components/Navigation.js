@@ -78,7 +78,7 @@ function Navigation({ lang = false }) {
                 </ul>
             ) : (
                 <ul>
-                    {/* <li>
+                    <li>
                         <a href="#">
                             Home <i className="fal fa-angle-down" />
                         </a>
@@ -139,8 +139,8 @@ function Navigation({ lang = false }) {
                                 <Link to="/shops/shop-details">Shop details</Link>
                             </li>
                         </ul>
-                    </li> */}
-                    {/* <li>
+                    </li>
+                    <li>
                         <a href="#">
                             News <i className="fal fa-angle-down" />
                         </a>
@@ -152,8 +152,8 @@ function Navigation({ lang = false }) {
                                 <Link to="/news/single-news">Single News</Link>
                             </li>
                         </ul>
-                    </li> */}
-                    <li>
+                    </li>
+                    {/* <li>
                         <Link to="/">Home</Link>
                     </li>
                     <li>
@@ -161,7 +161,7 @@ function Navigation({ lang = false }) {
                     </li>
                     <li>
                         <Link to="/news">Blog</Link>
-                    </li>
+                    </li> */}
                     <li>
                         <Link to="/contact">Contact</Link>
                     </li>

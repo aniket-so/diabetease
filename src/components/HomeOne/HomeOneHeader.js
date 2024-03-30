@@ -39,7 +39,7 @@ function HomeOneHeader({
                         </div>
                         <div className="col-lg-6 col-md-1 col-sm-1 order-3 order-sm-2">
                             <div className="appie-header-main-menu">
-                                <Navigation />
+                                {/* <Navigation /> */}
                             </div>
                         </div>
                         <div className="col-lg-4  col-md-7 col-sm-6 col-6 order-2 order-sm-3">
@@ -104,7 +104,7 @@ function HomeOneHeader({
                                     <i className="fal fa-user" /> Login
                                 </a> */}
                                 <a className="main-btn ml-30" href="#">
-                                    Take The Reversal Test
+                                    Make Appoinment
                                 </a>
                                 <div
                                     onClick={(e) => action(e)}
