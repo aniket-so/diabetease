@@ -1771,7 +1771,7 @@ background: linear-gradient(94deg, rgba(67,132,153,1) 9%, rgba(69,137,156,1) 30%
     margin-bottom: 0px;
   }
 }
-.appie-hero-content ul li a {
+.appie-hero-content ul li button {
   background: #40C9B6;
   color: #fff;
   line-height: 40px;
@@ -8223,4 +8223,76 @@ blockquote cite {
   background: #007C9C;
 }
 
-/*# sourceMappingURL=style.css.map */
+/* Custom CSS Modal */
+.modal-header{
+  align-items: center !important;
+}
+.modal-header .btn-close {
+  padding: 0.5rem;
+  background-color: transparent;
+  border: none;
+  color: #000;
+  font-size: 1.5rem;
+}
+
+.modal-header .btn-close:hover {
+  color: #007C9C;
+}
+
+.modal-header .btn-close:focus {
+  outline: none;
+}
+
+.modal-header .btn-close::before {
+  content: '\00D7';
+  font-family: 'FontAwesome';
+}
+
+/* Custom CSS Whatsapp */
+/* for desktop */
+.whatsapp_float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 20px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  z-index: 100;
+}
+
+.whatsapp-icon {
+  margin-top: 16px;
+}
+
+/* for mobile */
+@media screen and (max-width: 767px) {
+  .whatsapp-icon {
+      margin-top: 10px;
+  }
+
+  .whatsapp_float {
+      width: 40px;
+      height: 40px;
+      bottom: 20px;
+      right: 10px;
+      font-size: 22px;
+  }
+}
+
+.back-to-top{
+  display: none !important;
+}
+
+/* Scroll Bar */
+/* ::-webkit-scrollbar {
+  width: 12px;
+  background-color: #1E5DBC;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #40C9B6;
+} */

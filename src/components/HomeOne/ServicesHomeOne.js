@@ -29,7 +29,7 @@ function ServicesHomeOne({ className }) {
                                 <img src={IconOne} alt="" />
                             </div>
                             <h4 className="appie-title">Lorem</h4>
-                            <p>Monitor real-time fluctuations in your blood sugar levels</p>
+                            <p>Comprehensive approach to diabetes management</p>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6">
@@ -42,7 +42,7 @@ function ServicesHomeOne({ className }) {
                                 <img src={IconOne} alt="" />
                             </div>
                             <h4 className="appie-title">Lorem</h4>
-                            <p>Monitor real-time fluctuations in your blood sugar levels</p>
+                            <p>Personalized treatment plans tailored to your needs</p>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6">
@@ -55,7 +55,7 @@ function ServicesHomeOne({ className }) {
                                 <img src={IconOne} alt="" />
                             </div>
                             <h4 className="appie-title">Lorem</h4>
-                            <p>Monitor real-time fluctuations in your blood sugar levels</p>
+                            <p>Cutting-edge technology and expertise</p>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6">
@@ -68,7 +68,7 @@ function ServicesHomeOne({ className }) {
                                 <img src={IconOne} alt="" />
                             </div>
                             <h4 className="appie-title">Lorem</h4>
-                            <p>Monitor real-time fluctuations in your blood sugar levels</p>
+                            <p>Ongoing support for lasting results</p>
                         </div>
                     </div>
                 </div>

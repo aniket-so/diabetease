@@ -62,7 +62,7 @@ function PricingHomeOne({ className }) {
                                                 </ul>
                                                 <div className="pricing-btn mt-35">
                                                     <a className="main-btn" href="#">
-                                                        Choose plan
+                                                        Book A Free Call
                                                     </a>
                                                 </div>
                                             </div>
@@ -92,7 +92,7 @@ function PricingHomeOne({ className }) {
                                                 </ul>
                                                 <div className="pricing-btn mt-35">
                                                     <a className="main-btn" href="#">
-                                                        Choose plan
+                                                        Book A Free Call
                                                     </a>
                                                 </div>
                                             </div>
@@ -125,7 +125,7 @@ function PricingHomeOne({ className }) {
                                                 </ul>
                                                 <div className="pricing-btn mt-35">
                                                     <a className="main-btn" href="#">
-                                                        Choose plan
+                                                        Book A Free Call
                                                     </a>
                                                 </div>
                                             </div>
@@ -160,7 +160,7 @@ function PricingHomeOne({ className }) {
                                                 </ul>
                                                 <div className="pricing-btn mt-35">
                                                     <a className="main-btn" href="#">
-                                                        Choose plan
+                                                        Book A Free Call
                                                     </a>
                                                 </div>
                                             </div>
@@ -190,7 +190,7 @@ function PricingHomeOne({ className }) {
                                                 </ul>
                                                 <div className="pricing-btn mt-35">
                                                     <a className="main-btn" href="#">
-                                                        Choose plan
+                                                        Book A Free Call
                                                     </a>
                                                 </div>
                                             </div>
@@ -223,7 +223,7 @@ function PricingHomeOne({ className }) {
                                                 </ul>
                                                 <div className="pricing-btn mt-35">
                                                     <a className="main-btn" href="#">
-                                                        Choose plan
+                                                        Book A Free Call
                                                     </a>
                                                 </div>
                                             </div>

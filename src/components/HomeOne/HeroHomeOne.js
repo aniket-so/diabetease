@@ -1,31 +1,38 @@
-import React from 'react';
+import React, {useState} from 'react';
 import heroThumbOne from '../../assets/images/hero-thumb-1.png';
 import heroThumbTwo from '../../assets/images/hero-thumb-2.png';
 import shapeTwo from '../../assets/images/shape/shape-2.png';
 import shapeThree from '../../assets/images/shape/shape-3.png';
 import shapeFour from '../../assets/images/shape/shape-4.png';
-import heroMain from '../../assets/images/dia-1.png';
+import heroMain from '../../assets/images/main-hero-banner-vect.png';
+// import heroMain from '../../assets/images/dia-1.png';
+import CustomModal from './ModalComponent';
 
 function HeroHomeOne({ className }) {
+    const [showModal, setShowModal] = useState(false);
+
+    const openModal = () => setShowModal(true);
+    const closeModal = () => setShowModal(false);
     return (
         <>
+            <CustomModal showModal={showModal} closeModal={closeModal} />
             <section className={`appie-hero-area ${className || ''}`}>
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-lg-6">
                             <div className="appie-hero-content">
-                                <span>Welcome To Diabetease</span>
+                                <span>Welcome to SOWAKA</span>
                                 <h1 className="appie-title">
-                                    Lower Your Blood Sugar Levels Naturally
+                                    Elevate Your Health, Reverse Diabetes Naturally
                                 </h1>
                                 <p>
-                                    Personalized plans. Expert coaching. Delicious recipes
+                                    Your Partner in Conquering Diabetes Naturally
                                 </p>
                                 <ul>
                                     <li>
-                                        <a href="#">
+                                        <button  onClick={openModal}>
                                              Book An Appoinment
-                                        </a>
+                                        </button>
                                     </li>
                                     {/* <li>
                                         <a className="item-2" href="#">

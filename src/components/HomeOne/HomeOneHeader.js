@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import logo7 from '../../assets/images/logo-7.png';
 // import logo from '../../assets/images/1-removebg-preview.png';
 import logo from '../../assets/images/rsz_logo-sowaka.png';
@@ -6,6 +6,7 @@ import logo from '../../assets/images/rsz_logo-sowaka.png';
 // import logo from '../../assets/images/logo-sowaka (1).png';
 import StickyMenu from '../../lib/StickyMenu';
 import Navigation from '../Navigation';
+import CustomModal from './ModalComponent';
 
 function HomeOneHeader({
     lang,
@@ -17,6 +18,10 @@ function HomeOneHeader({
     dark,
     className,
 }) {
+    const [showModal, setShowModal] = useState(false);
+
+    const openModal = () => setShowModal(true);
+    const closeModal = () => setShowModal(false);
     useEffect(() => {
         StickyMenu();
     });
@@ -106,9 +111,9 @@ function HomeOneHeader({
                                 {/* <a className="login-btn" href="#">
                                     <i className="fal fa-user" /> Login
                                 </a> */}
-                                <a className="main-btn ml-30" href="#">
+                                <button className="main-btn ml-30" onClick={openModal}>
                                     Make Appoinment
-                                </a>
+                                </button>
                                 <div
                                     onClick={(e) => action(e)}
                                     className="toggle-btn ml-30 canvas_open d-lg-none d-block"
@@ -120,6 +125,7 @@ function HomeOneHeader({
                     </div>
                 </div>
             </div>
+            <CustomModal showModal={showModal} closeModal={closeModal} />
         </header>
     );
 }
