@@ -2,7 +2,7 @@ import React from 'react';
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
-
+import './CustomModal.css';
 
 const CustomModal = ({ showModal, closeModal }) => {
     const [formData, setFormData] = React.useState({
@@ -32,7 +32,7 @@ const CustomModal = ({ showModal, closeModal }) => {
                 <Modal.Title>Book an Appointment</Modal.Title>
             </Modal.Header>
             <Modal.Body>
-                <Form onSubmit={handleSubmit}>
+                <Form onSubmit={handleSubmit} className="custom-modal-form"> {/* Add custom class */}
                     <Form.Group controlId="formName">
                         <Form.Label>Name</Form.Label>
                         <Form.Control type="text" placeholder="Enter name" name="name" value={formData.name} onChange={handleInputChange} required />

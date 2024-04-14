@@ -9,10 +9,10 @@ function PricingHomeOne({ className }) {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="appie-section-title text-center">
-                                <h3 className="appie-title">Choose your plan</h3>
-                                <p>Different layouts and styles for team sections.</p>
+                                <h3 className="appie-title mb-3">Choose your plan</h3>
+                                {/* <p>Different layouts and styles for team sections.</p> */}
                             </div>
-                            <ul
+                            {/* <ul
                                 className="list-inline text-center switch-toggler-list"
                                 role="tablist"
                                 id="switch-toggle-tab"
@@ -31,7 +31,7 @@ function PricingHomeOne({ className }) {
                                 <li className={`year ${toggleSwitch === false ? 'active' : ''}`}>
                                     <a href="#">Annualy</a>
                                 </li>
-                            </ul>
+                            </ul> */}
                         </div>
                     </div>
                     <div className="tabed-content">
@@ -41,23 +41,29 @@ function PricingHomeOne({ className }) {
                                     <div className="col-lg-4 col-md-6 wow animated fadeInLeft">
                                         <div className="pricing-one__single">
                                             <div className="pricig-heading">
-                                                <h6>Lorem</h6>
+                                                <h4> <s>₹66,000</s> (12 Months) </h4>
                                                 <div className="price-range">
-                                                    <sup>$</sup> <span>04</span>
-                                                    <p>/month</p>
+                                                    <sup>₹</sup> <span>48,180</span>
                                                 </div>
-                                                <p>Get your 14 day free trial</p>
+                                                <p> <s>₹5,500</s>  ₹4,015 per month</p>
+                                                {/* <p>Get your 14 day free trial</p> */}
                                             </div>
                                             <div className="pricig-body">
                                             <ul>
                                                     <li>
-                                                        <i className="fal fa-check" /> Lorem Ipsum
+                                                        <i className="fal fa-check" /> 2 Pro Diabetes Coaches
                                                     </li>
                                                     <li>
-                                                        <i className="fal fa-check" /> Lorem Ipsum
+                                                        <i className="fal fa-check" /> Unlimited Consultation Calls
                                                     </li>
                                                     <li>
-                                                        <i className="fal fa-check" /> 24/7 Support
+                                                        <i className="fal fa-check" /> Personalised Diet & Workout Plans
+                                                    </li>
+                                                    <li>
+                                                        <i className="fal fa-check" /> Smart Scale
+                                                    </li>
+                                                    <li>
+                                                        <i className="fal fa-check" /> 1 CGM
                                                     </li>
                                                 </ul>
                                                 <div className="pricing-btn mt-35">
@@ -70,24 +76,30 @@ function PricingHomeOne({ className }) {
                                     </div>
                                     <div className="col-lg-4 col-md-6 wow animated fadeInUp">
                                         <div className="pricing-one__single center">
-                                            <div className="pricig-heading">
-                                                <h6>Lorem</h6>
+                                        <div className="pricig-heading">
+                                                <h4> <s>₹33,000</s> (06 Months) </h4>
                                                 <div className="price-range">
-                                                    <sup>$</sup> <span>16</span>
-                                                    <p>/month</p>
+                                                    <sup>₹</sup> <span>28,050</span>
                                                 </div>
-                                                <p>Get your 14 day free trial</p>
+                                                <p> <s>₹5,500</s>  ₹4,675 per month</p>
+                                                {/* <p>Get your 14 day free trial</p> */}
                                             </div>
                                             <div className="pricig-body">
-                                                <ul>
+                                            <ul>
                                                     <li>
-                                                        <i className="fal fa-check" /> Lorem Ipsum
+                                                        <i className="fal fa-check" /> 2 Pro Diabetes Coaches
                                                     </li>
                                                     <li>
-                                                        <i className="fal fa-check" /> Lorem Ipsum
+                                                        <i className="fal fa-check" /> Unlimited Consultation Calls
                                                     </li>
                                                     <li>
-                                                        <i className="fal fa-check" /> 24/7 Support
+                                                        <i className="fal fa-check" /> Personalised Diet & Workout Plans
+                                                    </li>
+                                                    <li>
+                                                        <i className="fal fa-check" /> Smart Scale
+                                                    </li>
+                                                    <li>
+                                                        <i className="fal fa-check" /> 1 CGM
                                                     </li>
                                                 </ul>
                                                 <div className="pricing-btn mt-35">
@@ -103,24 +115,30 @@ function PricingHomeOne({ className }) {
                                     </div>
                                     <div className="col-lg-4 col-md-6 wow animated fadeInRight">
                                         <div className="pricing-one__single">
-                                            <div className="pricig-heading">
-                                                <h6>Lorem</h6>
+                                        <div className="pricig-heading">
+                                                <h4> (03 Months) </h4>
                                                 <div className="price-range">
-                                                    <sup>$</sup> <span>27</span>
-                                                    <p>/month</p>
+                                                    <sup>₹</sup> <span>16,500</span>
                                                 </div>
-                                                <p>Get your 14 day free trial</p>
+                                                <p>₹5,500 per month</p>
+                                                {/* <p>Get your 14 day free trial</p> */}
                                             </div>
                                             <div className="pricig-body">
-                                                <ul>
+                                            <ul>
                                                     <li>
-                                                        <i className="fal fa-check" /> Lorem Ipsum
+                                                        <i className="fal fa-check" /> 2 Pro Diabetes Coaches
                                                     </li>
                                                     <li>
-                                                        <i className="fal fa-check" /> Lorem Ipsum
+                                                        <i className="fal fa-check" /> Unlimited Consultation Calls
                                                     </li>
                                                     <li>
-                                                        <i className="fal fa-check" /> 24/7 Support
+                                                        <i className="fal fa-check" /> Personalised Diet & Workout Plans
+                                                    </li>
+                                                    <li>
+                                                        <i className="fal fa-check" /> Smart Scale
+                                                    </li>
+                                                    <li>
+                                                        <i className="fal fa-check" /> 1 CGM
                                                     </li>
                                                 </ul>
                                                 <div className="pricing-btn mt-35">
