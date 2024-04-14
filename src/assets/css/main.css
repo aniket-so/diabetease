@@ -3011,8 +3011,8 @@ background: linear-gradient(94deg, rgba(67,132,153,1) 9%, rgba(69,137,156,1) 30%
   color: #40C9B6;
 }
 .appie-traffic-title .title {
-  font-size: 44px;
-  line-height: 54px;
+  font-size: 28px;
+  line-height: 40px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .appie-traffic-title .title {
@@ -6197,7 +6197,7 @@ blockquote cite {
 }
 .appie-about-3-area .appie-traffic-service {
   padding-left: 0;
-  padding-right: 50px;
+  padding-right: 10px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .appie-about-3-area .appie-traffic-service {
