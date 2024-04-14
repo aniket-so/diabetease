@@ -37,13 +37,13 @@ const CustomModal = ({ showModal, closeModal }) => {
                         <Form.Label>Name</Form.Label>
                         <Form.Control type="text" placeholder="Enter name" name="name" value={formData.name} onChange={handleInputChange} required />
                     </Form.Group>
+                    <Form.Group controlId="formPhone">
+                        <Form.Label>Mobile</Form.Label>
+                        <Form.Control type="tel" placeholder="Enter Mobile number" name="phone" value={formData.phone} onChange={handleInputChange} required />
+                    </Form.Group>
                     <Form.Group controlId="formEmail">
                         <Form.Label>Email</Form.Label>
                         <Form.Control type="email" placeholder="Enter email" name="email" value={formData.email} onChange={handleInputChange} />
-                    </Form.Group>
-                    <Form.Group controlId="formPhone">
-                        <Form.Label>Phone</Form.Label>
-                        <Form.Control type="tel" placeholder="Enter phone number" name="phone" value={formData.phone} onChange={handleInputChange} required />
                     </Form.Group>
                     <Form.Group controlId="formCity">
                         <Form.Label>City</Form.Label>
@@ -55,7 +55,7 @@ const CustomModal = ({ showModal, closeModal }) => {
                         </Form.Control>
                     </Form.Group>
                     <Button className='mt-3 main-btn' type="submit">
-                        Book Appointment
+                        Book Consultation
                     </Button>
                 </Form>
             </Modal.Body>

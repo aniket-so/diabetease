@@ -30,8 +30,13 @@ function HeroHomeOne({ className }) {
                                 </p>
                                 <ul>
                                     <li>
-                                        <button  onClick={openModal}>
-                                             Book An Appoinment
+                                        <button>
+                                             Buy Package
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button style={{background: "#155EB8", borderColor: "#155EB8"}} onClick={openModal}>
+                                        Book Consultation
                                         </button>
                                     </li>
                                     {/* <li>

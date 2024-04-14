@@ -59,13 +59,13 @@ function TrafficHomeOne({ className }) {
                                         {/* <p>With clinically-proven plans to reduce HbA1c, weight, stress levels</p> */}
                                     </div>
                                 </div>
-                                <div className="col-lg-12">
+                                {/* <div className="col-lg-12">
                                     <div className="traffic-btn mt-50">
                                         <button className="main-btn cta" onClick={openModal}>
                                             Book An Appoinment
                                         </button>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>

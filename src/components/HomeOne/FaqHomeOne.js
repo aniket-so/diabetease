@@ -13,7 +13,7 @@ function FaqHomeOne({ className }) {
                         <div className="col-lg-12">
                             <div className="appie-section-title text-center">
                                 <h3 className="appie-title">Frequently asked questions</h3>
-                                <p>Different layouts and styles for team sections.</p>
+                                {/* <p>Different layouts and styles for team sections.</p> */}
                             </div>
                         </div>
                     </div>
@@ -34,7 +34,7 @@ function FaqHomeOne({ className }) {
                                     >
                                         <div className="accrodion-inner">
                                             <div className="accrodion-title">
-                                                <h4>What is Lorem Ipsum?</h4>
+                                                <h4>Is Diabetes Really Reversible?</h4>
                                             </div>
                                             <div
                                                 className="accrodion-content"
@@ -44,9 +44,7 @@ function FaqHomeOne({ className }) {
                                             >
                                                 <div className="inner">
                                                     <p>
-                                                        Naff Oxford vagabond in my flat chinwag
-                                                        blatant grub tomfoolery that I bits and bobs
-                                                        up the duff cras boot bevvy no biggie.
+                                                    Although a permanent cure diabetes treatment has still not been found, early detection of type 2 diabetes can be reversed by making healthy lifestyle changes. One can also get rid of diabetes to a great extent with a consistent and progressive action plan. Following healthy diets and managing your blood sugar levels through exercise and good sleep daily can enable you to reverse the condition. However if these healthy habits are not maintained, the condition will rear its ugly head again.
                                                     </p>
                                                 </div>
                                             </div>
@@ -58,7 +56,7 @@ function FaqHomeOne({ className }) {
                                     >
                                         <div className="accrodion-inner">
                                             <div className="accrodion-title">
-                                                <h4>What is Lorem Ipsum?</h4>
+                                                <h4>Can chronic diabetes be reversed?</h4>
                                             </div>
                                             <div
                                                 className="accrodion-content"
@@ -68,9 +66,7 @@ function FaqHomeOne({ className }) {
                                             >
                                                 <div className="inner">
                                                     <p>
-                                                        Naff Oxford vagabond in my flat chinwag
-                                                        blatant grub tomfoolery that I bits and bobs
-                                                        up the duff cras boot bevvy no biggie.
+                                                    Reversing diabetes is a biggest challenge. Especially when you have chronic diabetes the management of diabetes mellitus is a difficult thing. However, reversing chronic diabetes type 2 to a larger extent is possible through consistent efforts. You can join the diabetes reversal program offered by Sugarfit to control and reverse type 2 diabetes and prediabetes profoundly. Luckily, if you detect diabetes type 2 at the early stages then you can reverse it by making simple lifestyle changes.
                                                     </p>
                                                 </div>
                                             </div>
@@ -95,7 +91,7 @@ function FaqHomeOne({ className }) {
                                     >
                                         <div className="accrodion-inner">
                                             <div className="accrodion-title">
-                                                <h4>What is Lorem Ipsum?</h4>
+                                                <h4>What is the success rate of diabetes reversal?</h4>
                                             </div>
                                             <div
                                                 className="accrodion-content"
@@ -105,9 +101,7 @@ function FaqHomeOne({ className }) {
                                             >
                                                 <div className="inner">
                                                     <p>
-                                                        Naff Oxford vagabond in my flat chinwag
-                                                        blatant grub tomfoolery that I bits and bobs
-                                                        up the duff cras boot bevvy no biggie.
+                                                    Although the diabetes reversal rate for type 1 is negligible but type 2 diabetes reversal rate is quite high. According to research, if you opt for the surgery method for reversing type 2 diabetes then the reversal rate is as high as 80%. However, if you opt for slow reversal of diabetes type 2 through following action plans then the reversal rate is impressive.
                                                     </p>
                                                 </div>
                                             </div>
@@ -119,7 +113,7 @@ function FaqHomeOne({ className }) {
                                     >
                                         <div className="accrodion-inner">
                                             <div className="accrodion-title">
-                                                <h4>What is Lorem Ipsum?</h4>
+                                                <h4>Can I reverse diabetes naturally?</h4>
                                             </div>
                                             <div
                                                 className="accrodion-content"
@@ -129,9 +123,7 @@ function FaqHomeOne({ className }) {
                                             >
                                                 <div className="inner">
                                                     <p>
-                                                        Naff Oxford vagabond in my flat chinwag
-                                                        blatant grub tomfoolery that I bits and bobs
-                                                        up the duff cras boot bevvy no biggie.
+                                                    A straightforward answer to this question is no, diabetes mellitus won’t go away on its own. You cannot simply sit and wait for this disease to go away. However, you can expect type 2 diabetes to go away with consistent efforts but type 1 hasn’t found any trace of reversibility yet. What’s important is discipline to reverse type 2 diabetes as vaguely expecting it to go away won’t work in your favor.
                                                     </p>
                                                 </div>
                                             </div>
@@ -144,7 +136,7 @@ function FaqHomeOne({ className }) {
                             <div className="faq-text text-center pt-40">
                                 <p>
                                     Can't find an answer?{' '}
-                                    <a href="mailto:demo@gmail.com">Email us</a>
+                                    <a href="https://wa.me/2348100000000" target="_blank" rel="noopener noreferrer">Chat with us</a>
                                 </p>
                             </div>
                         </div>

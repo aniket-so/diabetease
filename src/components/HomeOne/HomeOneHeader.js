@@ -111,9 +111,11 @@ function HomeOneHeader({
                                 {/* <a className="login-btn" href="#">
                                     <i className="fal fa-user" /> Login
                                 </a> */}
-                                <button className="main-btn ml-30" onClick={openModal}>
-                                    Make Appoinment
-                                </button>
+                                <a style={{background: "#25D366", border: "none"}} className="main-btn ml-30" href="https://wa.me/2348100000000"
+                                    target="_blank"
+                                    rel="noopener noreferrer">
+                                    Chat with Us
+                                </a>
                                 <div
                                     onClick={(e) => action(e)}
                                     className="toggle-btn ml-30 canvas_open d-lg-none d-block"
